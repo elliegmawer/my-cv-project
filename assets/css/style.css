@@ -1,13 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/*----------------------------------------------------------------------colors*/
 .bg-color-name-title{
     background-color: #8ba59b;
     color: #ffffff;
 }
 
+.ul-menu-color-home{
+    background-color: #376b5e;
+}
+
+.ul-menu-color-my-cv{
+    background-color: #468776;
+}
+
+.ul-menu-color-contact-me{
+    background-color:#56a38f;
+}
+
+.ul-menu-color-download{
+    background-color: #74dbc0;
+}
+
+/*---------------------------------------------------------------------heading*/
 
 header {
     margin: 0;
+}
+
+.heading{
+    margin-left: 50px;
 }
 
 .logo {
