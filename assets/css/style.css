@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*----------------------------------------------------------------------colors*/
-.bg-color-name-title{
-    background-color: #8ba59b;
+
+.bg-color-name-title {
+    background-color: #415853;
     color: #ffffff;
 }
 
-.ul-menu-color-home{
-    background-color: #376b5e;
+.ul-menu-color-home {
+    background-color: #006652;
 }
 
-.ul-menu-color-my-cv{
-    background-color: #468776;
+.ul-menu-color-my-cv {
+    background-color: #00997a;
 }
 
-.ul-menu-color-contact-me{
-    background-color:#56a38f;
+.ul-menu-color-contact-me {
+    background-color:  #00b38f;
 }
 
-.ul-menu-color-download{
-    background-color: #74dbc0;
+.ul-menu-color-download {
+    background-color:  #00e6b8;
 }
 
 /*---------------------------------------------------------------------heading*/
@@ -28,7 +29,7 @@ header {
     margin: 0;
 }
 
-.heading{
+.heading {
     margin-left: 50px;
 }
 
@@ -52,7 +53,53 @@ header {
     font-family: Roboto, sans-serif;
     font-weight: 200;
     font-size: 28px;
-    margin-top:20px;
+    margin-top: 20px;
     margin-bottom: 90px;
     color: #ffffff;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+
+}
+
+/*-------------------------------------------------------------------hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgb(0, 0, 0, 0.2);
+    height: 120px;
 }
