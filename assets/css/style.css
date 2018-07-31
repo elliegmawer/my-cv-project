@@ -11,6 +11,10 @@
     background-color: #ffffff;
 }
 
+.bg-color-personal-info {
+    background-color: #d1e0e0;
+}
+
 .ul-menu-color-home {
     background-color: #006652;
 }
@@ -51,12 +55,11 @@ h4 {
     display: inline-block;
 }
 
-.section-column {
-    padding: 0 30px 30px;
-    float: none;
-    display: table-cell;
-
-}
+/*.section-column {*/
+/*    padding: 0 30px 30px;*/
+/*    float: none;*/
+/*    display: table-cell;*/
+/*}*/
 
 .row-table {
     display: table;
@@ -154,6 +157,8 @@ header {
     height: 120px;
 }
 
+
+
 /*---------------------------------------------------------------------footer*/
 
 footer {
@@ -213,6 +218,7 @@ footer .cv-pdf i:hover {
     margin: 20px;
 }
 
+/*---------------------------------------------------------------------section*/
 /*---------------------------------------------------------------three-reasons*/
 
 .three-reasons-icon {
@@ -222,4 +228,26 @@ footer .cv-pdf i:hover {
 
 .three-reasons-heading {
     margin-bottom: 15px;
+}
+
+.three-reasons-p-font {
+    font-family: Exo, sans-serif;
+    font-weight: 300;
+}
+
+/*---------------------------------------------------------------personal-info*/
+
+.value {
+    font-family: Exo, sans-serif;
+    font-weight: 300;
+}
+
+/*---------------------------------------------------------------media-queries*/
+
+@media(mid-width: 992px) {
+    .section-column {
+        padding: 50px 50px;
+        float: none;
+        display: table-cell;
+    }
 }
