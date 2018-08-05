@@ -45,7 +45,7 @@ h4 {
 }
 
 .general-sub {
-    font-family: Exo, sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 400;
     color: #fafafa;
 
@@ -66,7 +66,7 @@ h4 {
 }
 
 .section-heading {
-    font-family: Exo, sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
@@ -84,7 +84,7 @@ header {
 }
 
 .logo {
-    background: url("../images/IMG_8962.JPG");
+    background: url("../images/ellie.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,7 +96,7 @@ header {
 }
 
 .name {
-    font-family: Exo, sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
@@ -170,7 +170,7 @@ footer {
 }
 
 footer p {
-    font-family: exo, sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 100;
 }
 
@@ -231,20 +231,52 @@ footer .cv-pdf i:hover {
 }
 
 .three-reasons-p-font {
-    font-family: Exo, sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 300;
 }
 
 /*---------------------------------------------------------------personal-info*/
 
-.value {
-    font-family: Exo, sans-serif;
-    font-weight: 300;
+.personal-info-item{
+    margin-bottom: 20px;
+    display:block;
+    clear:both;
+    
+}
+
+.personal-info-item .key,
+.personal-info-item .value{
+    padding-right: 8px;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p{
+    margin:0;
+}
+
+.personal-info-item .key{
+    display:inline-block;
+    width: 30%;
+    margin-right:21px;
+    padding-top:2px;
+    vertical-align: top;
+    font-family: "Roboto", sans-serif
+}
+
+.personal-info-item .key p{
+    font-weight: 700;
+}
+
+.personal-info-item .value{
+    display: inline-block;
+    position:relative;
+    width:60%;
+    font-family: "Exo", sans-serif
 }
 
 /*---------------------------------------------------------------media-queries*/
 
-@media(mid-width: 992px) {
+@media(min-width: 992px) {
     .section-column {
         padding: 50px 50px;
         float: none;
