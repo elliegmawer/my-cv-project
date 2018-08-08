@@ -56,9 +56,13 @@ h4 {
 }
 
 /*.section-column {*/
+
 /*    padding: 0 30px 30px;*/
+
 /*    float: none;*/
+
 /*    display: table-cell;*/
+
 /*}*/
 
 .row-table {
@@ -219,6 +223,7 @@ footer .cv-pdf i:hover {
 }
 
 /*---------------------------------------------------------------------section*/
+
 /*---------------------------------------------------------------three-reasons*/
 
 .three-reasons-icon {
@@ -237,42 +242,57 @@ footer .cv-pdf i:hover {
 
 /*---------------------------------------------------------------personal-info*/
 
-.personal-info-item{
+.personal-info-item {
     margin-bottom: 20px;
-    display:block;
-    clear:both;
-    
+    display: block;
+    clear: both;
+
 }
 
 .personal-info-item .key,
-.personal-info-item .value{
+.personal-info-item .value {
     padding-right: 8px;
 }
 
 .personal-info-item .key p,
-.personal-info-item .value p{
-    margin:0;
+.personal-info-item .value p {
+    margin: 0;
 }
 
-.personal-info-item .key{
-    display:inline-block;
+.personal-info-item .key {
+    display: inline-block;
     width: 30%;
-    margin-right:21px;
-    padding-top:2px;
+    margin-right: 21px;
+    padding-top: 2px;
     vertical-align: top;
     font-family: "Roboto", sans-serif
 }
 
-.personal-info-item .key p{
+.personal-info-item .key p {
     font-weight: 700;
 }
 
-.personal-info-item .value{
+.personal-info-item .value {
     display: inline-block;
-    position:relative;
-    width:60%;
+    position: relative;
+    width: 60%;
     font-family: "Exo", sans-serif
 }
+
+
+/*------------------------------------------------------------------skills bar*/
+
+.progress {
+    position: relative;
+    height: 25px;
+}
+
+
+.ffs {
+    color: orange;
+}
+
+
 
 /*---------------------------------------------------------------media-queries*/
 
