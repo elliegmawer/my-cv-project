@@ -19,6 +19,10 @@
     background-color: #00997a;
 }
 
+.bg-color-contact {
+    background-color: #ffffff;
+}
+
 .ul-menu-color-home {
     background-color: #006652;
 }
@@ -348,10 +352,36 @@ footer .cv-pdf i:hover {
     background-color: #fafafa;
 }
 
+/*---------------------------------------------------------------------Contact*/
 
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
 
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
 
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #b3cccc;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
+button[type="submit"]:hover {
+    background: #ff6600;
+    color: #fafafa;
+}
 
 /*---------------------------------------------------------------media-queries*/
 
@@ -360,5 +390,12 @@ footer .cv-pdf i:hover {
         padding: 50px 50px;
         float: none;
         display: table-cell;
+    }
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
     }
 }
