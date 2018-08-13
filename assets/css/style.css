@@ -96,8 +96,8 @@ header {
 }
 
 .logo {
-    background: url("../images/ellie & jo2.jpg");
-    background-position: center;
+    background: url("../images/ellie&jo.jpg");
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
