@@ -15,6 +15,10 @@
     background-color: #d1e0e0;
 }
 
+.bg-color-work-history {
+    background-color: #00997a;
+}
+
 .ul-menu-color-home {
     background-color: #006652;
 }
@@ -157,7 +161,7 @@ header {
 /*-------------------------------------------------------------------hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background-color: rgb(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
@@ -297,9 +301,56 @@ footer .cv-pdf i:hover {
     background-color: rgba(25, 25, 25, 0.2);
 }
 
-.progress-section{
-    margin:40px 20px;
+.progress-section {
+    margin: 40px 20px;
 }
+
+/*----------------------------------------------------------------work history*/
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    Padding: 0;
+    margin: 0;
+}
+
+.timeline-item h4 {
+    font-family: "Roboto", sans-serif;
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 50%;
+    content: '';
+    background-color: #fafafa;
+}
+
+
+
+
 
 
 /*---------------------------------------------------------------media-queries*/
